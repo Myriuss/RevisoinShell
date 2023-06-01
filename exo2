@@ -1,0 +1,4 @@
+for i in $*
+do
+	echo Je connais quelqu\'un qui a suivi un cours $i
+done

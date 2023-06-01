@@ -1,0 +1,8 @@
+echo Quel est le meilleur ami de l\'homme
+echo Tigre Lion Chien Serpent
+read reponse
+case $response in
+	Chien) echo Réponse correcte;;
+	Tigrey|Lion|Serpent) echo Réponse incorrecte;;
+	*) echo $reponse, Réponse non proposée;;
+esac

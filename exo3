@@ -1,0 +1,6 @@
+cpt=1
+for i in $*
+do
+	echo L\'argument numero $cpt est $i
+	cpt=`expr $cpt + 1` 
+done

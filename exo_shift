@@ -1,0 +1,3 @@
+mot=$1
+shift
+grep $mot $* | sort

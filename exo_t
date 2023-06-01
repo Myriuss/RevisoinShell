@@ -1,0 +1,8 @@
+echo Je pense à un nombre entre 1 et 50
+read reponse
+until test $reponse = 33
+do
+	echo Faux
+	read reponse
+done
+echo bien vu
