@@ -1,0 +1,5 @@
+if test $# -ne 2
+then
+	echo Cette commande a 2 parametres\! 1>&2
+	exit 1
+fi

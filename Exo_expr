@@ -1,0 +1,8 @@
+case $# in
+	0) echo Pas d\'arguments 1>&2 ; exit 1;;
+	*) while test $1
+	do echo $1 min correspond a `expr 60 \* $1` sec
+	shift
+	done;;
+esac
+exit 0

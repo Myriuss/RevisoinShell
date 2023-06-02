@@ -1,0 +1,11 @@
+for fich in *
+do 
+	if test -f $fich
+	then
+		if test ! -s $fich
+		then
+			rm $fich
+			echi $fich supprimé
+		fi
+	fi
+done
